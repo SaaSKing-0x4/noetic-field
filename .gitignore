@@ -1,0 +1,43 @@
+# Local state, keys and settings: never commit these
+config.json
+noetic_state.json
+noetic_state.json.*
+noetic_state-*.json.tmp
+.env
+.env.*
+*_backup_*
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging and builds
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Tests and tools
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

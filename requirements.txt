@@ -1,0 +1,5 @@
+anthropic>=0.40.0
+openai>=1.0.0                  # used only when NOETIC_PROVIDER=openrouter (see provider.py)
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
