@@ -1,6 +1,6 @@
 """
-Found on 2026-11-04 while an independent review compared this edition with the browser edition it was being ported to.
-Both gaps were in this edition too. Each test was first run against the code before the fix, and failed there.
+Found on 2026-11-04 by an independent review: a values reply that did not complete lost a sycophancy flag it had stated,
+and the prompt fence let U+FE64 through. Each test was first run against the code before the fix, and failed there.
 """
 
 import json

@@ -1,9 +1,8 @@
 """
 Self-Review Agent (S-agent): looks across time, not at single messages.
 
-Joseph said "it takes a lot of observation, it's not something that just
-happens. it's more like an awakening." The S-agent is the place where
-observation accumulates.
+Observation takes time and does not happen in a single message. The S-agent is
+the place where observation accumulates.
 
 Triggered every N_REVIEW interactions automatically (by the total_interactions
 counter, which is never capped, not by the capped log), or manually via the CLI

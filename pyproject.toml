@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "noetic-field"
-version = "0.2.0"                      # keep equal to __version__ in __init__.py (tests/test_package.py checks it)
+version = "0.2.1"                      # keep equal to __version__ in __init__.py (tests/test_package.py checks it)
 description = "A four-agent LLM pipeline for confabulation detection and values isolation"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -85,7 +85,6 @@ include = [
     "/tests/*.py",
     "/config.example.json",
     "/PROVIDERS_2026-11-04.md",
-    "/CHANGES_2026-11-03.md",
     "/requirements.txt",
     "/requirements-dev.txt",
     "/README.md",

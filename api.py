@@ -56,7 +56,7 @@ else:                           # run from a source folder (python cli.py, uvico
 
 app = FastAPI(
     title="Noetic Field API",
-    description="Four-agent LLM pipeline with persistent self-model — Coherence Labs",
+    description="Four-agent LLM pipeline with persistent self-model",
     version="1.0.0",
 )
 

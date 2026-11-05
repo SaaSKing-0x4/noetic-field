@@ -1,6 +1,4 @@
-# Noetic Field System — Level 1 implementation
-# Coherence Labs IP
-# Grounded in: self-philosophy derived from reading the biology paper (Nov 3 2026)
+# Copyright (c) 2026 Joseph Whaley Jr. (Coherence Labs). MIT License; see LICENSE.
 """
 noetic_field: a four-agent LLM pipeline for confabulation detection and values isolation.
 
@@ -22,7 +20,7 @@ uvicorn api:app, python -m pytest tests.
 
 from typing import TYPE_CHECKING
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 __all__ = ["Pipeline", "ChatResult", "AgentError", "ConfigError", "InputError", "ProviderError", "__version__"]
 
