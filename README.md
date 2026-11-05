@@ -116,11 +116,11 @@ N and V run in parallel. If one of them fails or returns something unreadable, t
 | `NOETIC_PROVIDER` | `anthropic` (default) or `openrouter` |
 | `NOETIC_MODEL_C`, `_N`, `_V`, `_S` | the model one agent uses |
 | `NOETIC_MAX_TOKENS_C`, `_N`, `_V`, `_S` | the reply limit of one agent |
-| `NOETIC_CONFIG` | path of a JSON config file; copy [`config.example.json`](config.example.json) (it ships inside the package, as `noetic_field/config.example.json`) |
+| `NOETIC_CONFIG` | path of a JSON config file; copy [`config.example.json`](https://github.com/SaaSKing-0x4/noetic-field/blob/main/config.example.json) (it ships inside the package, as `noetic_field/config.example.json`) |
 | `NOETIC_HOME` | the folder an installed package keeps its state in (default `~/.noetic_field`) |
 | `NOETIC_STATE_FILE` | the exact state file to use |
 
-A model id that does not suit the provider (a `vendor/model` id on Anthropic, a bare id on OpenRouter) is refused when the `Pipeline` is created. [`PROVIDERS_2026-11-04.md`](PROVIDERS_2026-11-04.md) describes the provider layer in full.
+A model id that does not suit the provider (a `vendor/model` id on Anthropic, a bare id on OpenRouter) is refused when the `Pipeline` is created. [`PROVIDERS_2026-11-04.md`](https://github.com/SaaSKing-0x4/noetic-field/blob/main/PROVIDERS_2026-11-04.md) describes the provider layer in full.
 
 **State.** The pipeline keeps a self-model on disk (values, notes, per-domain confidence, a bounded log). An installed package writes `~/.noetic_field/noetic_state.json`; run from a source checkout it writes next to the code. `Pipeline(state_file="path.json")` gives one pipeline a file of its own. Creating a `Pipeline` reads and writes nothing; the first `chat()` does, and counts as one session. The file is shared with the command line and the HTTP interface.
 
@@ -169,6 +169,6 @@ Version 0.2, alpha. The automated tests do not call a real provider: run one mes
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](https://github.com/SaaSKing-0x4/noetic-field/blob/main/LICENSE).
 
 The underlying theoretical framework (Multi-Convergence Hypothesis, Noetic Field Model) is separately documented and reserved. See https://doi.org/10.5281/zenodo.23965032.
